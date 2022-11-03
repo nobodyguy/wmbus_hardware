@@ -6,6 +6,9 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*-backups/
 *.sch-bak
 *~
 _autosave-*
