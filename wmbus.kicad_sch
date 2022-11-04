@@ -1357,7 +1357,6 @@
     )
   )
 
-
   (junction (at 190.246 93.472) (diameter 0) (color 0 0 0 0)
     (uuid 143631db-57b6-49dd-9540-3405819b44f3)
   )
@@ -2029,7 +2028,7 @@
     (uuid 0ad72dfe-4dba-4409-bc67-734cd14155b9)
     (property "Reference" "IC1" (id 0) (at 94.996 102.87 0))
     (property "Value" "IM871A" (id 1) (at 94.996 105.41 0))
-    (property "Footprint" "IM871A" (id 2) (at 110.236 107.696 0)
+    (property "Footprint" "wmbus:IM871A" (id 2) (at 110.236 107.696 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://shop.imst.de/media/pdf/c6/30/74/iM871A_Datasheet_V1_5.pdf" (id 3) (at 110.236 110.236 0)
@@ -2367,7 +2366,7 @@
     (uuid 3f0ee482-312c-4799-b9be-0ee983b048cc)
     (property "Reference" "J1" (id 0) (at 35.814 40.64 0))
     (property "Value" "480-37-1000" (id 1) (at 35.814 43.18 0))
-    (property "Footprint" "MOLEX_480-37-1000" (id 2) (at 35.814 53.086 0)
+    (property "Footprint" "wmbus:MOLEX_480-37-1000" (id 2) (at 35.814 53.086 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 35.814 53.086 0)
@@ -3370,10 +3369,10 @@
       (reference "FB1") (unit 1) (value "100R") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/0ad72dfe-4dba-4409-bc67-734cd14155b9"
-      (reference "IC1") (unit 1) (value "IM871A") (footprint "IM871A")
+      (reference "IC1") (unit 1) (value "IM871A") (footprint "wmbus:IM871A")
     )
     (path "/3f0ee482-312c-4799-b9be-0ee983b048cc"
-      (reference "J1") (unit 1) (value "480-37-1000") (footprint "MOLEX_480-37-1000")
+      (reference "J1") (unit 1) (value "480-37-1000") (footprint "wmbus:MOLEX_480-37-1000")
     )
     (path "/e6b81e0e-a2cc-422b-a7a0-32e56b2495ae"
       (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "wmbus:SMA-SMD_BWSMA-KE-P001")
